@@ -1,0 +1,65 @@
+body{
+	background-color: lightgrey;
+	font-family: sans-serif
+}
+
+a{
+	text-decoration: none;
+	color: maroon;
+}
+
+h1, h2, h3{
+	margin: 0;
+}
+
+#container{
+	background-color: white;
+	width:800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header{
+	color: maroon;
+	text-align: center;
+	background-color: lightblue;
+	padding: 10px;
+}
+
+
+#content{
+	padding: 10px;
+}
+
+#nav{
+	width: 180px;
+	float: left;
+}
+
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+#nav .selected{
+	font-weight: bold;
+}
+
+#contact{
+	width: 600px;
+	float: right;
+}
+
+#contact a{
+	text-decoration: none;
+	color: blue;
+	padding-left: 20px;
+}
+#footer{
+	clear: both;
+	background-color: grey;
+	color: white;
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 3px;
+}
